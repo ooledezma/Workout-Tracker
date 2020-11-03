@@ -14,12 +14,15 @@ router.get("/api/workouts", (req, res) => {
   });
 
 //PUT route for "/api/workouts/:id"
-router.put("/api/workouts/:id", function ({ body, params }, res){
+router.put("/api/workouts/:id", ({body, params}, res) => {
+  console.log("HELLOOOOOOOOOOOOOOOOOOOOO")
   db.Workout.findByIdAndUpdate(
+    
       params.id,
       {$push: {exercises: body}},
       { new: true, runValidators: true}).then(dbWorkout => {
           res.json(dbWorkout);
+          console.log("Goodbyeeeeeeeeeeeeeee")
       }).catch(err => {
         res.status(400).json(err);
       });
