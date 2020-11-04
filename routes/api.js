@@ -16,6 +16,7 @@ router.get("/api/workouts", (req, res) => {
 //PUT route for "/api/workouts/:id"
 router.put("/api/workouts/:id", ({body, params}, res) => {
   console.log("HELLOOOOOOOOOOOOOOOOOOOOO")
+  console.log(params.id)
   db.Workout.findByIdAndUpdate(
     
       params.id,
