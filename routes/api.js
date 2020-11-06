@@ -35,8 +35,9 @@ router.put("/api/workouts/:id", ({ body, params }, res) => {
 
 
 //POST route for "/api/workouts"
-router.post("/api/workouts", (req, res) => {
-  db.Workout.find({})
+router.post("/api/workouts", ({body}, res) => {
+  db.Workout.create(body)
+
     .then(dbWorkout => {
       console.log("====================")
       console.log(dbWorkout)
