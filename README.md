@@ -41,10 +41,10 @@ node server.js
 Screenschot
 
 The home page display
-![](./public/img/mainpage.JPG)
+(./public/img/mainpage.JPG)
 
 The dashboard display 
-![](./public/img/Workoutdashboard.JPG)
+(./public/img/Workoutdashboard.JPG)
 
 
 
