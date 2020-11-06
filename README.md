@@ -69,3 +69,7 @@ No test required
 For questions contact ooledezma@gmail.com.
 GitHub URL: https://api.github.com/users/ooledezma
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52891fe886f54cab6ef2637386432fce4595129b
