@@ -41,10 +41,10 @@ node server.js
 Screenschot
 
 The home page display
-(./public/img/mainpage.JPG)
+<img src="./public/img/mainpage.JPG">
 
 The dashboard display 
-(./public/img/Workoutdashboard.JPG)
+<img src="./public/img/Workoutdashboard.JPG"
 
 
 
