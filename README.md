@@ -39,7 +39,7 @@ Then run the application:
 node server.js
 
 ```
-## Installation
+
 
 ## Usage
 
