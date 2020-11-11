@@ -43,7 +43,7 @@ node server.js
 
 ## Usage
 
-Screenschot
+Screenshot
 
 The home page display
 <img src="public\img\mainpage.JPG">
